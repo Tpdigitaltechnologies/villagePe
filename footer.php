@@ -4,8 +4,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <div class="widget-logo">
-                            <img src="assets/images/logo.png" class="black-logo" alt="image">
-                            <img src="assets/images/logo-2.png" class="white-logo" alt="image">
+                            <img src="assets/images/logo-1.png" class="black-logo" alt="image">
+                            <img src="assets/images/logo-1.png" class="white-logo" alt="image">
                         </div>
                         <p>To get exclusive updates and benefits.</p>
                         <form class="newsletter-form" data-bs-toggle="validator">

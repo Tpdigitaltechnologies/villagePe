@@ -217,29 +217,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-features-card" data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
-                        <div class="icon-image">
-                            <img src="assets/images/seamless.svg" alt="image">
-                        </div>
-                        <div class="content text-center">
-                            <h3>Seamless integration with all the service</h3>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="single-features-card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
-                        <div class="icon-image">
-                            <img src="assets/images/easy-integration-opt.svg" alt="image">
-                        </div>
-                        <div class="content">
-                            <h3 class="text-center">Easy Integration</h3>
-                            <p class="text-center">Our API is well-documented and easy to understand. Integrating is as easy as it can get. We provide 24x7 manual integration support just in case, leaving no stone unturned to make the integration process seamless.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single-features-card" data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <div class="icon-image">
@@ -287,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center">
+            <!-- <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="paiement-image" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <img src="assets/images/developers-opt.svg" alt="image">
@@ -300,7 +279,7 @@
                     </div>
                     <a href="about-us.php" class="default-btn">Know More</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -347,7 +326,7 @@
     </div>
 
 
-    <div class="partner-area ptb-100">
+    <!-- <div class="partner-area ptb-100">
         <div class="container">
             <div class="partner-title">
                 <h2>Our Trusted Partners</h2>
@@ -373,7 +352,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="contact-area ptb-100">
         <div class="container">
