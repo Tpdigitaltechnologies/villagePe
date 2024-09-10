@@ -6,9 +6,58 @@
     <?php require_once('website_details.php'); ?>
     <title>Home | <?php echo $company_title; ?></title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .float {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 150px;
+      right: 5px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+    .float-1{
+        position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 150px;
+      right: 5px;
+      background-color: #ff991c;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100; 
+    }
+    .float-1:hover{
+        background-color: #FFF;
+        color: #ff991c;
+    }
+    .my-float {
+      margin-top: 10px;
+    }
+    .rotated-phone {
+            transform: rotate(90deg); /* Rotate the phone icon 90 degrees */
+        }
+    </style>
 </head>
 
 <body>
+     <!-- whatsapp icon  --> 
+<!-- <a href="tel:5551234567"><img src="callme.jpg" alt="Call 5551234567" /></a> -->
+<a href="https://api.whatsapp.com/send?phone=+918088651844&text=Hello VillagePe!" class="float" target="_blank">
+  <i class="fab fa-whatsapp my-float"></i>
+</a>
+<!-- <a href="tel:8329217032" class="float-1" target="_blank">
+<i class="fas fa-phone my-float "></i> -->
+</a>
 
     <div class="preloader">
         <div class="d-table">
@@ -40,13 +89,13 @@
                     <div class="main-banner-wrap-content" data-aos="fade-right" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <span>Simple. Quick. Secure.</span>
                         <h1>Best way to send money and do Aadhaar based withdrawal</h1>
-                        <p>An international account to send money to over 60 countries around the world, up to 7x cheaper the bank. <a href="about-us.html">Learn more</a></p>
+                        <p>An international account to send money to over 60 countries around the world, up to 7x cheaper the bank. <a href="about-us.php">Learn more</a></p>
                         <ul class="banner-btn-group">
+                            <!-- <li>
+                                <a href="getting-started.php" class="default-btn">Get Started</a>
+                            </li> -->
                             <li>
-                                <a href="getting-started.html" class="default-btn">Get Started</a>
-                            </li>
-                            <li>
-                                <a href="contact.html" class="optional-btn">Conatct Us</a>
+                                <a href="contact.php" class="optional-btn">Conatct Us</a>
                             </li>
                         </ul>
                     </div>
@@ -76,8 +125,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="reliable-content" data-aos="fade-left" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
-                        <span>Celebrate the Biggest Festival of Democracy</span>
-                        <h3>Let's Vote with Pride</h3>
+                        <!-- <span>Payment Gateway</span> -->
+                        <h3>Payment Gateway</h3>
                     </div>
                     <a href="about-us.php" class="default-btn">Know More</a>
                 </div>
@@ -98,8 +147,8 @@
         <div class="container">
             <div class="section-title">
                 <!-- <span>Our Review</span> -->
-                <h2>Become a Banking & Financial service provider</h2>
-                <p>Eko gives you an opportunity to turn your own shop into a Banking & Financial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!</p>
+                <h2>Villagepe</h2>
+                <p>Villagepe gives you an opportunity to turn your own shop into a Banking & Financial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!</p>
             </div>
             <div class="review-slides-two owl-carousel owl-theme">
                 <div class="single-review-card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
@@ -213,10 +262,20 @@
                             <img src="assets/images/industry.svg" alt="image">
                         </div>
                         <div class="content text-center">
-                            <h3>Instant retailer onboarding</h3>
+                            <h3>Payment Gateway</h3>
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="single-features-card" data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
+                        <div class="icon-image">
+                            <img src="assets/images/industry.svg" alt="image">
+                        </div>
+                        <div class="content text-center">
+                            <h3>Aadhaar Banking</h3>
+                        </div>
+                    </div>
+                </div> -->
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
@@ -235,11 +294,11 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="single-features-card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <div class="icon-image">
-                            <img src="assets/images/eko-trust-opt.svg" alt="image">
+                            <img src="assets/images/Villagepe-trust-opt.svg" alt="image">
                         </div>
                         <div class="content">
-                            <h3 class="text-center">Eko's Trust</h3>
-                            <p class="text-center">We use the same APIs here at Eko! Every API call is secured with one-time-use tokens generated using asymmetric cryptography. Our open-source libraries make it extremely easy & error-proof</p>
+                            <h3 class="text-center">Villagepe's Trust</h3>
+                            <p class="text-center">We use the same APIs here at Villagepe! Every API call is secured with one-time-use tokens generated using asymmetric cryptography. Our open-source libraries make it extremely easy & error-proof</p>
                         </div>
                     </div>
                 </div>
@@ -256,7 +315,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="paiement-content" data-aos="fade-right" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <h4>Retailer</h4>
-                        <p>Our retailer partners use Eko's proprietary platform 'Connect' and partner services to offer cash based and assisted commerce services. This provides a great earning potential and the freedom of running their own business with minimal investment.</p>
+                        <p>Our retailer partners use Villagepe's proprietary platform 'Connect' and partner services to offer cash based and assisted commerce services. This provides a great earning potential and the freedom of running their own business with minimal investment.</p>
                     </div>
                     <a href="about-us.php" class="default-btn">Know More</a>
                 </div>
@@ -291,10 +350,10 @@
                 <h3>No matter what your business is we’ve got you covered</h3><br>
                 <!-- <ul class="overview-btn-group">
                         <li>
-                            <a href="help-center.html" class="default-btn">Personal Account</a>
+                            <a href="help-center.php" class="default-btn">Personal Account</a>
                         </li>
                         <li>
-                            <a href="help-center.html" class="optional-btn">Business Account</a>
+                            <a href="help-center.php" class="optional-btn">Business Account</a>
                         </li>
                     </ul> -->
             </div>
@@ -313,7 +372,7 @@
                 <div class="col-md-7">
                     <div class="founder-message">
                         <h2>What our partners say</h2>
-                        <p>Indifi is committed to simplifying credit access to small and medium-sized entrepreneurs. Our partnership with Eko will further our vision of facilitating financial inclusion for India’s huge SME sector. By providing Eko’s cash distributors with the credit line services, we will also help empower a greater number of retailers across the country.</p>
+                        <p>Indifi is committed to simplifying credit access to small and medium-sized entrepreneurs. Our partnership with Villagepe will further our vision of facilitating financial inclusion for India’s huge SME sector. By providing Villagepe’s cash distributors with the credit line services, we will also help empower a greater number of retailers across the country.</p>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -333,22 +392,22 @@
             </div>
             <div class="partner-slides owl-carousel owl-theme">
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-1.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-1.png" alt="image"></a>
                 </div>
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-2.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-2.png" alt="image"></a>
                 </div>
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-3.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-3.png" alt="image"></a>
                 </div>
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-4.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-4.png" alt="image"></a>
                 </div>
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-5.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-5.png" alt="image"></a>
                 </div>
                 <div class="partner-image">
-                    <a href="about-us.html"><img src="assets/images/partner/partner-6.png" alt="image"></a>
+                    <a href="about-us.php"><img src="assets/images/partner/partner-6.png" alt="image"></a>
                 </div>
             </div>
         </div>

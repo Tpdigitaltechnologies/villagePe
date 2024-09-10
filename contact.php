@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<!-- Mirrored from templates.hibootstrap.com/snuff/default/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Sep 2024 07:41:32 GMT -->
+<!-- Mirrored from templates.hibootstrap.com/snuff/default/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Sep 2024 07:41:32 GMT -->
 
 <head>
 
@@ -71,42 +71,45 @@
                 <h2>We're More Than International Payments, Get In Touch</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="contact-information-card">
                         <div class="icon">
                             <i class="ri-map-pin-line"></i>
                         </div>
                         <h3>Address:</h3>
-                        <p>27 Division St, 1100. E Denver, CO 80237, USA</p>
+                        <p>Gmaxepay Fintech Solutions Pvt Ltd 3rd floor, No 60/417, NKS Prime Metro Station, 20th Main Rd Below Rajaji Nagar 1st Block, 1st N Block Rajajinagar, Bengaluru Karnataka 560010</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="contact-information-card">
                         <div class="icon">
                             <i class="ri-mail-line"></i>
                         </div>
                         <h3>Email Address:</h3>
-                        <p><a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#e8808d848487a89b869d8e8ec68b8785"><span class="__cf_email__" data-cfemail="3f575a5353507f4c514a5959115c5052">[email&#160;protected]</span></a> <br> <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#b9cad7ccdfdfdad6d7cdd8dacdf9ded4d8d0d597dad6d4"><span class="__cf_email__" data-cfemail="c0b3aeb5a6a6a3afaeb4a1a3b480a7ada1a9aceea3afad">[email&#160;protected]</span></a></p>
+                        <p><a><span class="__cf_email__" data-cfemail="3f575a5353507f4c514a5959115c5052">gmaxepay@gmail.com</span></a></p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="contact-information-card">
                         <div class="icon">
                             <i class="ri-phone-line"></i>
                         </div>
-                        <h3>Phone Number:</h3>
-                        <p><a href="tel:44789289528790">+44 7892 8952 8790</a> <br> <a href="tel:44 89289524329">+44 7892 8952 4329</a></p>
+                        <h3>For Support:</h3>
+                        <p><a href="tel:8062179126">+91 8062179126</a></p>
+                        <h3>For Sales:</h3>
+                        <p><a href="tel:8088651844">
+                        +91 8088651844 </a></p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <div class="contact-information-card">
                         <div class="icon">
                             <i class="ri-printer-line"></i>
                         </div>
-                        <h3>Fax:</h3>
-                        <p><a href="tel:12129876543">+1-212-9876543</a> <br> <a href="tel:121298765436709">+1-212-9876543670</a></p>
+                        <h3>For Sales:</h3>
+                        <p><a href="tel:8088651844">+91 8088651844</a></p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -171,7 +174,7 @@
                             <div class="form-check">
                                 <input name="gridCheck" value="I agree to the terms and privacy policy." class="form-check-input" type="checkbox" id="gridCheck" required>
                                 <label class="form-check-label" for="gridCheck">
-                                    I agree to the <a href="terms-of-service.html">terms</a> and <a href="privacy-policy.html">privacy policy</a>
+                                    I agree to the <a href="terms-of-service.php">terms</a> and <a href="privacy-policy.php">privacy policy</a>
                                 </label>
                                 <div class="help-block with-errors gridCheck-error"></div>
                             </div>
@@ -201,6 +204,6 @@
     <?php require_once('footer_script.php'); ?>
 </body>
 
-<!-- Mirrored from templates.hibootstrap.com/snuff/default/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Sep 2024 07:41:34 GMT -->
+<!-- Mirrored from templates.hibootstrap.com/snuff/default/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Sep 2024 07:41:34 GMT -->
 
 </html>

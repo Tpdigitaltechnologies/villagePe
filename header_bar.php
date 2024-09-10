@@ -14,7 +14,7 @@
         <div class="main-navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/images/logo-1.png" class="black-logo" alt="image">
                         <img src="assets/images/logo-1.png" class="white-logo" alt="image">
                     </a>
@@ -50,7 +50,7 @@
                         <div class="circle circle-three"></div>
                     </div>
                 </div>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="option-inner">
                         <div class="others-options d-flex align-items-center">
                             <div class="option-item">
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
