@@ -269,8 +269,8 @@
     <div class="global-transfers-area pt-100 pb-75">
         <div class="container">
             <div class="section-title">
-                <span>Utility & Bill Payment</span>
-                <h2>Pay all bills at the same place, at the same time</h2>
+                <!-- <span>Utility & Bill Payment</span> -->
+                <h2>Collection</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6">

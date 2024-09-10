@@ -1,7 +1,7 @@
 <footer class="footer-area pt-100">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500" data-aos-once="true">
                         <div class="widget-logo">
                             <img src="assets/images/logo-1.png" class="black-logo" alt="image">
@@ -39,17 +39,16 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="60" data-aos-duration="600" data-aos-once="true">
-                        <h3>Company And Team</h3>
+                        <h3>Useful Links</h3>
                         <ul class="quick-links">
-                            <li><a href="team.html">Company And Team</a></li>
-                            <li><a href="blog.html">News And Blog</a></li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="help-center.html">Affiliates And Partnerships</a></li>
-                            <li><a href="about-us.html">Careers</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <div class="single-footer-widget ps-5" data-aos="fade-up" data-aos-delay="70" data-aos-duration="700" data-aos-once="true">
                         <h3>Resources</h3>
                         <ul class="quick-links">
@@ -60,15 +59,16 @@
                             <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                </div> -->
+                <div class="col-lg-5 col-md-6">
                     <div class="single-footer-widget" data-aos="fade-up" data-aos-delay="80" data-aos-duration="800" data-aos-once="true">
                         <h3>Contact Info</h3>
                         <ul class="info-links">
-                            <li><span>Location:</span> 27 Division St, 1100. E Denver, CO 80237, USA</li>
-                            <li><span>Email:</span> <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#fb939e979794bb88958e9d9dd5989496"><span class="__cf_email__" data-cfemail="650d0009090a25160b1003034b060a08">[email&#160;protected]</span></a></li>
-                            <li><span>Phone:</span> <a href="tel:44789289524329">+44 7892 8952 4329</a></li>
-                            <li><span>Fax:</span> <a href="tel:12129876543">+1-212-9876543</a></li>
+                            <li><span>Location:</span> Gmaxepay Fintech Solutions Pvt Ltd 3rd floor, No 60/417, NKS Prime Metro Station, 20th Main Rd Below Rajaji Nagar 1st Block, 1st N Block Rajajinagar, Bengaluru Karnataka 560010</li>
+                            <li><span>Email:</span> <a href="#"><span class="__cf_email__" data-cfemail="650d0009090a25160b1003034b060a08">gmaxepay@gmail.com</span></a></li>
+                            <li><span>For Support:<span> <a href="tel:8062179126">+91 8062179126
+                            </a></li>
+                            <li><span>For Sales:</span> <a href="tel:8088651844">+91 8088651844</a></li>
                         </ul>
                     </div>
                 </div>
@@ -81,10 +81,7 @@
                         Copyright @<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> Snuff All Rights Reserved by
-                        <a href="https://hibootstrap.com/" target="_blank">
-                            HiBootstrap
-                        </a>
+                        </script> Villagepe All Rights Reserved
                     </p>
                 </div>
             </div>
